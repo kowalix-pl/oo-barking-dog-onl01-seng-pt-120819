@@ -10,8 +10,8 @@ class Dog
 end 
 
 fido = Dog.new 
-fido.name = "Fido" 
+fido.name= ("Fido") 
 
-fido.name 
-fido.bark = "Woof" 
-fido.bark
+puts fido.name 
+fido.bark = "Woof!" 
+puts fido.bark
